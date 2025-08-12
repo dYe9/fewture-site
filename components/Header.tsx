@@ -7,7 +7,7 @@ export default function Header(){
     <header className="header">
       <div className="container" style={{display:'flex',alignItems:'center',justifyContent:'space-between',height:64}}>
         <Link href="/" aria-label="Fewture Studios home" style={{display:'inline-flex', gap:8, alignItems:'center'}}>
-          <img src="/logos/fewture.png" alt="Fewture Studios" width={32} height={32} />
+          <img src="/logos/fewturelogo.PNG" alt="Fewture Studios" width={32} height={32} />
           <strong>Fewture Studios</strong>
         </Link>
         <div style={{display:'flex', gap:12}}>
