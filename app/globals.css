@@ -8,6 +8,13 @@
   --g-200:#D9DDE8;
   --g-600:#707387;
 
+  .text-gradient { 
+  background: var(--accent-grad); 
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent;
+}
+
   /* new brand — deep purple → deep red */
   --accent-purple:#6E00FF;   /* primary hue */
   --accent-red:#D1006F;      /* secondary hue */
