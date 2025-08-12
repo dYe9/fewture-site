@@ -9,7 +9,7 @@ export default function Hero(){
     <section className="section hero-bg" aria-labelledby="hero">
       <div className="container" style={{paddingTop: '72px', paddingBottom:'72px'}}>
         <M.div initial={{opacity:0, y:16}} animate={{opacity:1, y:0}} transition={{duration:.5}}>
-          <h1 id="hero" style={{fontFamily:'var(--font-outfit), sans-serif'}}>
+          <h1 id="hero" className="text-gradient" style={{fontFamily:'var(--font-outfit), sans-serif'}}>
             {c.h1}
           </h1>
           <p className="sub">{c.sub1}</p>
